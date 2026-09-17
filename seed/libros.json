@@ -1,0 +1,33 @@
+[
+  {
+    "titulo": "El Principito",
+    "autor": "Antoine de Saint-Exupéry",
+    "imagen": "el-principito.jpg"
+  },
+  {
+    "isbn": "978-0060883287",
+    "titulo": "Cien años de soledad",
+    "autor": "Gabriel García Márquez",
+    "genero": ["Realismo mágico"],
+    "anio_publicacion": 1967,
+    "editorial": "Harper Perennial",
+    "sinopsis": "La historia de varias generaciones de la familia Buendía en el pueblo ficticio de Macondo.",
+    "idioma": "Español",
+    "paginas": 417,
+    "cantidad": 3,
+    "imagen": "cien-anos-de-soledad.jpg"
+  },
+  {
+    "isbn": "978-0451524935",
+    "titulo": "1984",
+    "autor": "George Orwell",
+    "genero": ["Distopía"],
+    "anio_publicacion": 1949,
+    "editorial": "Signet Classics",
+    "sinopsis": "Una sociedad totalitaria donde el Estado ejerce un control extremo sobre la información, la conducta y el pensamiento.",
+    "idioma": "Inglés",
+    "paginas": 328,
+    "cantidad": 2,
+    "imagen": null
+  }
+]
