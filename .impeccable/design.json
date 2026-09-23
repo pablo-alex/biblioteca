@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-21T21:36:06.6932724-04:00",
+  "title": "Design System: Biblioteca Pública Municipal",
+  "extensions": {
+    "colorMeta": {
+      "green-900": { "role": "primary", "displayName": "Verde municipal profundo", "tonalRamp": ["oklch(15% 0.059 157.6)", "oklch(26% 0.059 157.6)", "oklch(38% 0.059 157.6)", "oklch(50% 0.059 157.6)", "oklch(62% 0.059 157.6)", "oklch(74% 0.059 157.6)", "oklch(86% 0.059 157.6)", "oklch(95% 0.059 157.6)"] },
+      "green-800": { "role": "primary", "displayName": "Verde municipal oscuro", "tonalRamp": ["oklch(15% 0.083 155.3)", "oklch(26% 0.083 155.3)", "oklch(38% 0.083 155.3)", "oklch(50% 0.083 155.3)", "oklch(62% 0.083 155.3)", "oklch(74% 0.083 155.3)", "oklch(86% 0.083 155.3)", "oklch(95% 0.083 155.3)"] },
+      "green-700": { "role": "primary", "displayName": "Verde municipal", "tonalRamp": ["oklch(15% 0.111 152.2)", "oklch(26% 0.111 152.2)", "oklch(38% 0.111 152.2)", "oklch(50% 0.111 152.2)", "oklch(62% 0.111 152.2)", "oklch(74% 0.111 152.2)", "oklch(86% 0.111 152.2)", "oklch(95% 0.111 152.2)"] },
+      "green-100": { "role": "primary", "displayName": "Verde mineral pálido", "tonalRamp": ["oklch(15% 0.019 152.8)", "oklch(26% 0.019 152.8)", "oklch(38% 0.019 152.8)", "oklch(50% 0.019 152.8)", "oklch(62% 0.019 152.8)", "oklch(74% 0.019 152.8)", "oklch(86% 0.019 152.8)", "oklch(95% 0.019 152.8)"] },
+      "brick-900": { "role": "secondary", "displayName": "Terracota profundo", "tonalRamp": ["oklch(15% 0.097 32.9)", "oklch(26% 0.097 32.9)", "oklch(38% 0.097 32.9)", "oklch(50% 0.097 32.9)", "oklch(62% 0.097 32.9)", "oklch(74% 0.097 32.9)", "oklch(86% 0.097 32.9)", "oklch(95% 0.097 32.9)"] },
+      "brick-700": { "role": "secondary", "displayName": "Terracota oscuro", "tonalRamp": ["oklch(15% 0.126 35.0)", "oklch(26% 0.126 35.0)", "oklch(38% 0.126 35.0)", "oklch(50% 0.126 35.0)", "oklch(62% 0.126 35.0)", "oklch(74% 0.126 35.0)", "oklch(86% 0.126 35.0)", "oklch(95% 0.126 35.0)"] },
+      "brick-600": { "role": "secondary", "displayName": "Terracota de ladrillo", "tonalRamp": ["oklch(15% 0.137 36.5)", "oklch(26% 0.137 36.5)", "oklch(38% 0.137 36.5)", "oklch(50% 0.137 36.5)", "oklch(62% 0.137 36.5)", "oklch(74% 0.137 36.5)", "oklch(86% 0.137 36.5)", "oklch(95% 0.137 36.5)"] },
+      "brick-100": { "role": "secondary", "displayName": "Arcilla pálida", "tonalRamp": ["oklch(15% 0.025 45.9)", "oklch(26% 0.025 45.9)", "oklch(38% 0.025 45.9)", "oklch(50% 0.025 45.9)", "oklch(62% 0.025 45.9)", "oklch(74% 0.025 45.9)", "oklch(86% 0.025 45.9)", "oklch(95% 0.025 45.9)"] },
+      "cream-50": { "role": "neutral", "displayName": "Crema mineral claro", "tonalRamp": ["oklch(15% 0.011 89.7)", "oklch(26% 0.011 89.7)", "oklch(38% 0.011 89.7)", "oklch(50% 0.011 89.7)", "oklch(62% 0.011 89.7)", "oklch(74% 0.011 89.7)", "oklch(86% 0.011 89.7)", "oklch(95% 0.011 89.7)"] },
+      "cream-100": { "role": "neutral", "displayName": "Crema mineral medio", "tonalRamp": ["oklch(15% 0.018 86.1)", "oklch(26% 0.018 86.1)", "oklch(38% 0.018 86.1)", "oklch(50% 0.018 86.1)", "oklch(62% 0.018 86.1)", "oklch(74% 0.018 86.1)", "oklch(86% 0.018 86.1)", "oklch(95% 0.018 86.1)"] },
+      "cream-200": { "role": "neutral", "displayName": "Crema mineral de borde", "tonalRamp": ["oklch(15% 0.025 83.4)", "oklch(26% 0.025 83.4)", "oklch(38% 0.025 83.4)", "oklch(50% 0.025 83.4)", "oklch(62% 0.025 83.4)", "oklch(74% 0.025 83.4)", "oklch(86% 0.025 83.4)", "oklch(95% 0.025 83.4)"] },
+      "ink": { "role": "neutral", "displayName": "Tinta vegetal", "tonalRamp": ["oklch(15% 0.020 156.9)", "oklch(26% 0.020 156.9)", "oklch(38% 0.020 156.9)", "oklch(50% 0.020 156.9)", "oklch(62% 0.020 156.9)", "oklch(74% 0.020 156.9)", "oklch(86% 0.020 156.9)", "oklch(95% 0.020 156.9)"] },
+      "ink-soft": { "role": "neutral", "displayName": "Tinta vegetal suave", "tonalRamp": ["oklch(15% 0.022 157.2)", "oklch(26% 0.022 157.2)", "oklch(38% 0.022 157.2)", "oklch(50% 0.022 157.2)", "oklch(62% 0.022 157.2)", "oklch(74% 0.022 157.2)", "oklch(86% 0.022 157.2)", "oklch(95% 0.022 157.2)"] },
+      "sun": { "role": "tertiary", "displayName": "Ámbar solar", "tonalRamp": ["oklch(15% 0.130 76.0)", "oklch(26% 0.130 76.0)", "oklch(38% 0.130 76.0)", "oklch(50% 0.130 76.0)", "oklch(62% 0.130 76.0)", "oklch(74% 0.130 76.0)", "oklch(86% 0.130 76.0)", "oklch(95% 0.130 76.0)"] },
+      "danger": { "role": "tertiary", "displayName": "Rojo de atención", "tonalRamp": ["oklch(15% 0.149 27.2)", "oklch(26% 0.149 27.2)", "oklch(38% 0.149 27.2)", "oklch(50% 0.149 27.2)", "oklch(62% 0.149 27.2)", "oklch(74% 0.149 27.2)", "oklch(86% 0.149 27.2)", "oklch(95% 0.149 27.2)"] },
+      "white": { "role": "neutral", "displayName": "Blanco cálido", "tonalRamp": ["oklch(15% 0.005 78.3)", "oklch(26% 0.005 78.3)", "oklch(38% 0.005 78.3)", "oklch(50% 0.005 78.3)", "oklch(62% 0.005 78.3)", "oklch(74% 0.005 78.3)", "oklch(86% 0.005 78.3)", "oklch(95% 0.005 78.3)"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Titulares de bienvenida condensados y de gran escala." },
+      "headline": { "displayName": "Headline", "purpose": "Encabezados principales de catálogo y administración." },
+      "title": { "displayName": "Title", "purpose": "Títulos de libros y unidades de contenido." },
+      "body": { "displayName": "Body", "purpose": "Lectura general, instrucciones y descripción." },
+      "label": { "displayName": "Label", "purpose": "Navegación, estados y metadatos compactos." }
+    },
+    "shadows": [
+      { "name": "shadow-low", "value": "0 8px 24px rgba(54, 42, 30, 0.1)", "purpose": "Elevación ambiental de tarjetas, portada y controles flotantes." },
+      { "name": "shadow-high", "value": "0 22px 55px rgba(52, 36, 26, 0.2)", "purpose": "Elevación de tarjetas activas, sugerencias, diálogos y notificaciones." },
+      { "name": "brick-hole", "value": "inset 0 7px 12px rgba(44, 13, 8, .38)", "purpose": "Profundidad interna de los vanos de ladrillo." },
+      { "name": "extracted-panel", "value": "0 28px 65px rgba(59, 19, 12, .38)", "purpose": "Separa el detalle continuo que emerge de la fachada." }
+    ],
+    "motion": [
+      { "name": "ease-out", "value": "cubic-bezier(.16, 1, .3, 1)", "purpose": "Curva principal para elevación, reordenamiento y paneles." },
+      { "name": "button-response", "value": "180ms", "purpose": "Respuesta de botones a hover y active." },
+      { "name": "catalog-reorder", "value": "260ms", "purpose": "Desenfoque, opacidad y escala durante el reordenamiento del índice." },
+      { "name": "volume-extract", "value": "480ms", "purpose": "Apertura del detalle dentro de la fachada." },
+      { "name": "match-rise", "value": "700ms", "purpose": "Ascenso de la coincidencia principal después de buscar." }
+    ],
+    "breakpoints": [
+      { "name": "compact", "value": "1050px" },
+      { "name": "mobile", "value": "760px" },
+      { "name": "narrow", "value": "480px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Acción principal para búsqueda, creación y confirmación.",
+      "html": "<button class=\"ds-btn-primary\" type=\"button\">Buscar <svg aria-hidden=\"true\" viewBox=\"0 0 24 24\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg></button>",
+      "css": ".ds-btn-primary{min-height:46px;display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:10px 17px;border:0;border-radius:var(--radius-sm);background:var(--green-700);color:var(--white);font-family:'Archivo Local',sans-serif;font-weight:740;transition:transform 180ms var(--ease-out),background 180ms ease,box-shadow 180ms ease}.ds-btn-primary svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}.ds-btn-primary:hover{transform:translateY(-2px);background:var(--green-800);box-shadow:0 8px 20px rgba(21,61,40,.18)}.ds-btn-primary:active{transform:translateY(0)}.ds-btn-primary:focus-visible{outline:3px solid var(--sun);outline-offset:3px}"
+    },
+    {
+      "name": "Quiet Button",
+      "kind": "button",
+      "refersTo": "button-quiet",
+      "description": "Acción secundaria que mantiene el foco visual en la tarea principal.",
+      "html": "<button class=\"ds-btn-quiet\" type=\"button\">Ver catálogo</button>",
+      "css": ".ds-btn-quiet{min-height:46px;display:inline-flex;align-items:center;justify-content:center;padding:10px 17px;border:1px solid var(--cream-200);border-radius:var(--radius-sm);background:transparent;color:var(--ink);font-family:'Archivo Local',sans-serif;font-weight:740;transition:transform 180ms var(--ease-out),background 180ms ease}.ds-btn-quiet:hover{transform:translateY(-2px);background:var(--cream-100)}.ds-btn-quiet:active{transform:translateY(0)}.ds-btn-quiet:focus-visible{outline:3px solid var(--sun);outline-offset:3px}"
+    },
+    {
+      "name": "Catalog Search",
+      "kind": "input",
+      "refersTo": "search-box",
+      "description": "Control dominante de descubrimiento por título o autor.",
+      "html": "<label class=\"ds-search\"><svg aria-hidden=\"true\" viewBox=\"0 0 24 24\"><circle cx=\"11\" cy=\"11\" r=\"7\"/><path d=\"m20 20-4-4\"/></svg><span class=\"ds-sr\">Buscar por título o autor</span><input type=\"search\" placeholder=\"Busca por título o autor\"><button type=\"button\">Buscar</button></label>",
+      "css": ".ds-search{min-height:68px;display:grid;grid-template-columns:auto minmax(120px,1fr) auto;align-items:center;gap:13px;padding:7px 8px 7px 20px;border:2px solid var(--green-900);border-radius:14px 14px 14px 4px;background:var(--white);color:var(--ink);box-shadow:0 12px 30px rgba(33,45,36,.1);font-family:'Archivo Local',sans-serif}.ds-search:focus-within{box-shadow:0 13px 34px rgba(29,111,61,.18)}.ds-search svg{width:26px;height:26px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round}.ds-search input{min-width:0;border:0;outline:0;background:transparent;color:var(--ink);font:inherit;font-size:1.03rem}.ds-search button{min-height:46px;padding:10px 17px;border:0;border-radius:var(--radius-sm);background:var(--green-700);color:var(--white);font:inherit;font-weight:740}.ds-search button:hover{background:var(--green-800)}.ds-search button:focus-visible,.ds-search input:focus-visible{outline:3px solid var(--sun);outline-offset:3px}.ds-sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}"
+    },
+    {
+      "name": "Public Navigation Link",
+      "kind": "nav",
+      "description": "Enlace compacto de la cabecera pública con estado administrativo de alto contraste.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Navegación de ejemplo\"><a href=\"#\">Catálogo</a><a href=\"#\">Cómo prestar</a><a class=\"ds-nav-admin\" href=\"#\">Administración</a></nav>",
+      "css": ".ds-nav{display:flex;align-items:center;gap:8px;font-family:'Archivo Local',sans-serif}.ds-nav a{min-height:42px;display:inline-flex;align-items:center;padding:8px 13px;border-radius:var(--radius-sm);color:var(--ink);font-size:.88rem;font-weight:680;text-decoration:none}.ds-nav a:hover{background:var(--cream-100);color:var(--green-700)}.ds-nav a:focus-visible{outline:3px solid var(--sun);outline-offset:3px}.ds-nav .ds-nav-admin{background:var(--ink);color:var(--white)}.ds-nav .ds-nav-admin:hover{background:var(--green-800);color:var(--white)}"
+    },
+    {
+      "name": "Genre Tag",
+      "kind": "chip",
+      "refersTo": "genre-tag",
+      "description": "Metadato de género en forma píldora, nunca acción primaria.",
+      "html": "<span class=\"ds-tag\">Realismo mágico</span>",
+      "css": ".ds-tag{display:inline-flex;padding:6px 9px;border-radius:999px;background:var(--brick-100);color:var(--brick-900);font-family:'Archivo Local',sans-serif;font-size:.72rem;font-weight:730}"
+    },
+    {
+      "name": "Availability Status",
+      "kind": "chip",
+      "refersTo": "status-available",
+      "description": "Estado compacto para disponibilidad y registros administrativos.",
+      "html": "<span class=\"ds-status\">2 disponibles</span>",
+      "css": ".ds-status{display:inline-flex;align-items:center;gap:6px;padding:5px 8px;border-radius:999px;background:var(--green-100);color:var(--green-900);font-family:'Archivo Local',sans-serif;font-size:.7rem;font-weight:760;white-space:nowrap}.ds-status::before{content:'';width:6px;height:6px;border-radius:999px;background:var(--green-700)}"
+    },
+    {
+      "name": "Catalog Book Card",
+      "kind": "card",
+      "refersTo": "book-card",
+      "description": "Ficha de catálogo de proporción variable con portada o marcador local.",
+      "html": "<button class=\"ds-book-card\" type=\"button\"><span class=\"ds-book-visual\"><span class=\"ds-book-mark\"><i></i><i></i><i></i></span><span class=\"ds-book-status\">2 disponibles</span></span><span class=\"ds-book-body\"><small>Realismo mágico · Ficción</small><strong>Cien años de soledad</strong><span>Gabriel García Márquez</span><b>Abrir ficha →</b></span></button>",
+      "css": ".ds-book-card{width:320px;min-height:390px;display:grid;grid-template-rows:230px auto;overflow:hidden;padding:0;border:0;border-radius:var(--radius) var(--radius) var(--radius) 4px;background:var(--white);color:var(--ink);box-shadow:var(--shadow-low);text-align:left;font-family:'Archivo Local',sans-serif;transition:transform 260ms var(--ease-out),box-shadow 260ms var(--ease-out)}.ds-book-card:hover,.ds-book-card:focus-visible{transform:translateY(-7px);box-shadow:var(--shadow-high)}.ds-book-card:focus-visible{outline:3px solid var(--sun);outline-offset:3px}.ds-book-visual{position:relative;display:grid;place-items:center;background:var(--green-100)}.ds-book-mark{display:grid;grid-template-columns:repeat(3,18px);gap:5px}.ds-book-mark i{width:18px;height:31px;border-radius:2px;background:var(--green-700)}.ds-book-mark i:nth-child(2){height:42px;background:var(--brick-600)}.ds-book-status{position:absolute;top:12px;left:12px;padding:6px 9px;border-radius:7px;background:var(--white);color:var(--green-800);font-size:.7rem;font-weight:820;box-shadow:0 5px 16px rgba(31,42,35,.15)}.ds-book-body{display:flex;flex-direction:column;padding:19px}.ds-book-body small{color:var(--brick-700);font-size:.7rem;font-weight:780}.ds-book-body strong{margin-top:9px;font-size:1.18rem;line-height:1.12}.ds-book-body span{margin-top:6px;color:var(--ink-soft);font-size:.86rem}.ds-book-body b{margin-top:auto;padding-top:18px;color:var(--green-700);font-size:.78rem}"
+    },
+    {
+      "name": "Brick Index Volume",
+      "kind": "custom",
+      "description": "Componente firma que eleva una coincidencia desde un vano y abre su información en continuidad.",
+      "html": "<div class=\"ds-brick-index\"><span class=\"ds-hole\"></span><span class=\"ds-hole\"></span><button class=\"ds-brick-book\" type=\"button\"><span class=\"ds-cover\">Cien años<br>de soledad</span><span class=\"ds-copy\"><strong>Cien años de soledad</strong><small>Gabriel García Márquez</small><b>2 ejemplares</b></span></button><span class=\"ds-hole\"></span><span class=\"ds-hole\"></span></div>",
+      "css": ".ds-brick-index{width:520px;min-height:260px;display:grid;grid-template-columns:repeat(5,1fr);grid-template-rows:repeat(3,1fr);gap:11px;padding:28px;background:var(--brick-600);border-radius:20px 20px 20px 6px}.ds-hole{min-height:54px;border-radius:3px;background:var(--brick-900);box-shadow:inset 0 7px 12px rgba(44,13,8,.38);opacity:.9}.ds-brick-book{grid-column:2/5;grid-row:1/4;display:grid;grid-template-columns:38% 1fr;overflow:hidden;padding:0;border:0;border-radius:6px 6px 6px 2px;background:var(--cream-50);color:var(--ink);box-shadow:0 18px 42px rgba(67,24,15,.34);text-align:left;font-family:'Archivo Local',sans-serif;transition:transform 420ms var(--ease-out),box-shadow 420ms var(--ease-out)}.ds-brick-book:hover,.ds-brick-book:focus-visible{transform:translateY(-10px) scale(1.02);box-shadow:0 28px 55px rgba(53,18,12,.42)}.ds-brick-book:focus-visible{outline:3px solid var(--sun);outline-offset:3px}.ds-cover{display:grid;place-items:center;padding:14px;background:var(--sun);color:var(--brick-900);font-weight:760;text-align:center}.ds-copy{display:flex;flex-direction:column;padding:17px 15px}.ds-copy strong{font-size:1rem;line-height:1.12}.ds-copy small{margin-top:5px;color:var(--ink-soft);line-height:1.3}.ds-copy b{margin-top:auto;color:var(--green-700);font-size:.72rem}"
+    },
+    {
+      "name": "Admin Stats Ledger",
+      "kind": "custom",
+      "description": "Bloque contable para métricas operativas y alertas del mostrador.",
+      "html": "<section class=\"ds-ledger\"><div><span>Títulos activos</span><strong>6</strong></div><div><span>Disponibles</span><strong>8</strong></div><div class=\"ds-ledger-alert\"><span>Préstamos vencidos</span><strong>1</strong></div></section>",
+      "css": ".ds-ledger{width:560px;display:grid;grid-template-columns:repeat(2,1fr);overflow:hidden;border-radius:var(--radius) var(--radius) var(--radius) 4px;background:var(--green-900);color:var(--white);box-shadow:var(--shadow-low);font-family:'Archivo Local',sans-serif}.ds-ledger div{min-height:128px;padding:24px 18px;border-right:1px solid rgba(255,255,255,.16);border-bottom:1px solid rgba(255,255,255,.16)}.ds-ledger div:nth-child(2){border-right:0}.ds-ledger .ds-ledger-alert{grid-column:1/-1;border:0;background:var(--brick-700)}.ds-ledger span{color:#bcd1c1;font-size:.74rem;font-weight:650}.ds-ledger strong{display:block;margin-top:16px;font-size:2.6rem;line-height:1;font-variant-numeric:tabular-nums}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Índice de ladrillo",
+    "overview": "El sistema convierte los vanos de ladrillo del frontis en un índice vivo: una arquitectura cálida, pública y reconocible donde cada libro ocupa un módulo y la información parece extraerse físicamente de la fachada. La experiencia combina hospitalidad cultural con claridad operativa; evita tanto la frialdad institucional como el lenguaje comercial de una tienda.\n\nLa interfaz trabaja con densidad controlada y jerarquías contundentes. La portada pública da protagonismo a la búsqueda y a una retícula irregular de títulos reales, mientras que la administración conserva la misma identidad con una composición más compacta, tabular y orientada al mostrador. El movimiento refuerza la metáfora: una coincidencia asciende, las demás fichas se reorganizan y el detalle se despliega en continuidad dentro de la fachada.",
+    "keyCharacteristics": [
+      "Fachada de ladrillo reinterpretada como retícula modular irregular.",
+      "Terracota, verde municipal, crema mineral, tinta vegetal y ámbar solar.",
+      "Una sola familia grotesca variable con peso y ancho expresivos.",
+      "Rectángulos táctiles con una esquina inferior izquierda más corta.",
+      "Profundidad suave reservada para selección, apertura y respuesta.",
+      "Densidad pública acogedora y densidad administrativa funcional."
+    ],
+    "rules": [
+      { "name": "The Ladrillo y Municipio Rule", "body": "El terracota aporta memoria física y el verde aporta servicio público; ninguno debe convertirse en un relleno decorativo omnipresente.", "section": "colors" },
+      { "name": "The Una Familia Rule", "body": "Toda la jerarquía usa Archivo Variable; el peso, el ancho y la escala hacen el trabajo expresivo.", "section": "typography" },
+      { "name": "The Depth Responds Rule", "body": "La sombra intensa aparece como respuesta a foco, hover, selección o apertura; no se aplica por igual a todas las superficies.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do conserva la tensión entre módulos irregulares y alineaciones precisas para que la interfaz recuerde una fachada habitable.",
+      "Do usa la elevación y el movimiento para explicar selección, reordenamiento y apertura.",
+      "Do mantiene búsqueda, disponibilidad y préstamo presencial como información dominante y legible.",
+      "Do hereda la paleta y la geometría pública en administración, aumentando densidad sin perder calidez."
+    ],
+    "donts": [
+      "Don't conviertas el catálogo en una cuadrícula uniforme de tienda con tarjetas idénticas.",
+      "Don't reduzcas la identidad a un portal gubernamental estéril o excesivamente burocrático.",
+      "Don't uses sombras intensas en todas las cajas ni píldoras para cada control.",
+      "Don't introduzcas reservas, compras o cuentas públicas en la jerarquía visual."
+    ]
+  }
+}

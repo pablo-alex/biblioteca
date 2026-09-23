@@ -1,0 +1,39 @@
+{
+  "name": "biblioteca-publica-municipal",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Catalogo publico y gestion interna de una biblioteca municipal.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "preview:ui": "node scripts/preview-ui.js",
+    "capture:ui": "node scripts/capture-ui.js",
+    "seed": "node scripts/seed.js",
+    "admin:create": "node scripts/create-admin.js"
+  },
+  "dependencies": {
+    "@fontsource-variable/archivo": "^5.3.0",
+    "bcryptjs": "^3.0.2",
+    "cloudinary": "^2.7.0",
+    "compression": "^1.8.1",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "express-session": "^1.18.2",
+    "helmet": "^8.1.0",
+    "lucide-static": "^1.47.0",
+    "multer": "^2.4.0",
+    "pg": "^8.16.3",
+    "zod": "^4.1.8"
+  },
+  "devDependencies": {
+    "puppeteer-core": "^25.11.0",
+    "supertest": "^7.1.4",
+    "vitest": "^4.1.11"
+  }
+}
