@@ -1,0 +1,160 @@
+{
+  "title": "Dirección visual de la biblioteca",
+  "question": "Elige el mundo visual que debe gobernar el catálogo público y la administración. La construcción seguirá siendo code-first.",
+  "options": [
+    {
+      "id": "assigned",
+      "label": "Plaza de lectura",
+      "kicker": "LA PROPUESTA",
+      "lineage": "plazas cruceñas y corredores del Centro Cultural DM-10",
+      "thesis": "Buscar un libro se siente como entrar a una plaza cívica sombreada donde cada corredor conduce a un hallazgo disponible hoy.",
+      "palette": ["#196C3A", "#A94E31", "#F1EBDD", "#2495C3", "#243128"],
+      "materials": ["ladrillo cocido", "señalética municipal pintada", "hormigón bajo sombra"],
+      "viewport": "Una franja verde institucional abre paso a una plaza de búsqueda amplia; los libros aparecen en corredores escalonados junto a una vista recortada del edificio real.",
+      "risk": "La arquitectura puede quedarse en decoración si la búsqueda no gobierna la experiencia.",
+      "raised": [
+        {"from": "Tormenta tipográfica", "raise": "La consulta escrita reorganiza el plano y da una respuesta visible, no un adorno animado."},
+        {"from": "Cuarto oscuro", "raise": "La carga, el resultado y el vacío forman una revelación continua con estados inequívocos."},
+        {"from": "Identidad modular", "raise": "Las bandas de color municipal dominan regiones completas y mantienen una gramática reconocible."},
+        {"from": "Cola en profundidad", "raise": "La prioridad se expresa con profundidad, contraste y quietud, sin encerrar cada elemento."},
+        {"from": "Metrópolis de píxeles", "raise": "Los detalles secundarios recompensan la exploración sin reducir la legibilidad."}
+      ],
+      "wireframe": {"cols": 12, "rows": 10, "regions": [
+        {"label": "franja municipal", "x": 0, "y": 0, "w": 12, "h": 1, "accent": true},
+        {"label": "búsqueda-plaza", "x": 1, "y": 2, "w": 6, "h": 5, "accent": true},
+        {"label": "corredor de libros", "x": 7, "y": 2, "w": 4, "h": 7},
+        {"label": "filtros", "x": 1, "y": 8, "w": 6, "h": 1}
+      ]},
+      "comp": ".impeccable/mocks/decision/plaza-de-lectura.webp"
+    },
+    {
+      "id": "model-pick",
+      "label": "Índice de ladrillo",
+      "kicker": "IMPECCABLE’S PICK",
+      "lineage": "calados de ladrillo y rotulación de la fachada del DM-10",
+      "thesis": "La retícula perforada del edificio se convierte en un índice vivo de títulos, disponibilidad y recorridos.",
+      "palette": ["#B55032", "#F5F0E6", "#207A42", "#202A25", "#D59A50"],
+      "materials": ["ladrillo modular", "letras cívicas en relieve", "papel de ficha"],
+      "viewport": "Una gran retícula de vanos mezcla búsqueda, portadas y disponibilidad; la ficha seleccionada rompe el ritmo y se abre sin abandonar el catálogo.",
+      "risk": "Es la lectura más directa del edificio y puede sentirse rígida si todos los módulos reciben el mismo peso.",
+      "wireframe": {"cols": 12, "rows": 10, "regions": [
+        {"label": "marca", "x": 0, "y": 0, "w": 3, "h": 2, "accent": true},
+        {"label": "buscador", "x": 3, "y": 0, "w": 9, "h": 2},
+        {"label": "retícula catálogo", "x": 0, "y": 2, "w": 9, "h": 8, "accent": true},
+        {"label": "ficha abierta", "x": 9, "y": 2, "w": 3, "h": 8}
+      ]},
+      "comp": ".impeccable/mocks/decision/indice-de-ladrillo.webp"
+    },
+    {
+      "id": "challenger-box-wall",
+      "label": "Archivo de lomos",
+      "verdict": "competitive",
+      "lineage": "muro de cajas de archivo con etiquetas de extremo",
+      "thesis": "Cada libro ocupa un lomo-etiqueta compacto que puede extraerse para revelar su ficha completa.",
+      "palette": ["#A94E31", "#231E1A", "#F4EBDD", "#E0B649"],
+      "materials": ["cartón tostado", "etiqueta impresa", "papel interior"],
+      "viewport": "El catálogo forma una pared densa de lomos; la búsqueda extrae coincidencias y una ficha se abre como una cubierta articulada.",
+      "case": "La relación con estantes y fichas hace muy clara la exploración, aunque identifica menos la biblioteca municipal real.",
+      "risk": "Puede parecer una tienda de colección si el lenguaje de disponibilidad física pierde protagonismo.",
+      "wireframe": {"cols": 12, "rows": 10, "regions": [
+        {"label": "índice", "x": 0, "y": 0, "w": 3, "h": 10, "accent": true},
+        {"label": "muro de lomos", "x": 3, "y": 0, "w": 9, "h": 7},
+        {"label": "ficha extraída", "x": 5, "y": 5, "w": 6, "h": 5, "accent": true}
+      ]},
+      "comp": ".impeccable/mocks/decision/archivo-de-lomos.webp",
+      "hero": "https://impeccable.style/worlds/cards/textiles-weave-drape-fashion-sneaker-box-stacks-hero.webp"
+    },
+    {
+      "id": "challenger-modular",
+      "label": "Bandas cívicas",
+      "verdict": "competitive",
+      "lineage": "identidad modular sobre fotografía documental",
+      "thesis": "Fotografía real, datos de catálogo y grandes bandas municipales encajan en un sistema público enérgico.",
+      "palette": ["#168A47", "#17A3D4", "#F1CF35", "#D84A35", "#EEEDE8"],
+      "materials": ["fotografía documental", "barras planas", "tipografía de señalización"],
+      "viewport": "La fachada ocupa media pantalla y bandas verdes y celestes sostienen búsqueda, disponibilidad y acceso administrativo.",
+      "case": "Fortalece la identificación municipal y la adaptación entre áreas, pero la energía gráfica exige disciplina para no competir con las portadas.",
+      "risk": "Demasiados bloques saturados pueden cansar en sesiones largas de administración.",
+      "wireframe": {"cols": 12, "rows": 10, "regions": [
+        {"label": "foto", "x": 0, "y": 0, "w": 7, "h": 7},
+        {"label": "bandas-búsqueda", "x": 6, "y": 1, "w": 6, "h": 5, "accent": true},
+        {"label": "catálogo", "x": 0, "y": 7, "w": 12, "h": 3}
+      ]},
+      "comp": ".impeccable/mocks/decision/bandas-civicas.webp",
+      "hero": "https://impeccable.style/worlds/cards/studio-dumbar-identity-hero.webp"
+    },
+    {
+      "id": "challenger-alphabet",
+      "label": "Tormenta tipográfica",
+      "verdict": "declined",
+      "lineage": "letras que forman y transforman el paisaje",
+      "thesis": "Las palabras buscadas se condensan en títulos y abren caminos de lectura.",
+      "palette": ["#F7F5EF", "#181B19", "#AAB1AC", "#1B7B43"],
+      "materials": ["papel blanco", "masa tipográfica", "tinta plateada"],
+      "viewport": "Una consulta monumental se fragmenta en resultados legibles sobre un campo abierto.",
+      "case": "La escritura identifica la búsqueda, pero la transformación constante debilita la operación repetida.",
+      "kept": "La consulta debe cambiar visiblemente la composición, no limitarse a actualizar un contador.",
+      "risk": "El espectáculo tipográfico puede reducir legibilidad y rendimiento.",
+      "comp": ".impeccable/mocks/decision/tormenta-tipografica.webp",
+      "hero": "https://impeccable.style/worlds/cards/dream-surreal-impossible-worlds-alphabet-storm-hero.webp"
+    },
+    {
+      "id": "challenger-darkroom",
+      "label": "Catálogo revelado",
+      "verdict": "declined",
+      "lineage": "cuarto oscuro bajo luz ámbar",
+      "thesis": "Cada búsqueda revela lentamente títulos desde un campo oscuro como una copia fotográfica.",
+      "palette": ["#35140B", "#E18424", "#D4CEC2", "#090909"],
+      "materials": ["luz de seguridad ámbar", "plata húmeda", "bandeja esmaltada"],
+      "viewport": "El resultado emerge en bandas de exposición con la disponibilidad fijándose al final.",
+      "case": "La secuencia de estados es fuerte, pero una interfaz oscura contradice el uso diurno y acogedor de la biblioteca.",
+      "kept": "Carga, éxito, vacío y error deben sentirse como etapas completas de una sola revelación.",
+      "risk": "La lentitud expresiva puede frustrar una consulta sencilla.",
+      "comp": ".impeccable/mocks/decision/catalogo-revelado.webp",
+      "hero": "https://impeccable.style/worlds/cards/signals-instruments-darkroom-safelight-bay-hero.webp"
+    },
+    {
+      "id": "challenger-depth",
+      "label": "Cola en profundidad",
+      "verdict": "declined",
+      "lineage": "pantalla bitmap con planos de prioridad",
+      "thesis": "Disponibilidad, vencimiento y selección se ordenan por profundidad y brillo en vez de cajas.",
+      "palette": ["#0B0D0C", "#F1EEE2", "#D5A13A", "#727A74"],
+      "materials": ["vacío emisivo", "píxel marfil", "polvo en capas"],
+      "viewport": "Filas continuas atraviesan la pantalla y la selección avanza al plano frontal.",
+      "case": "La jerarquía operacional es precisa, pero su lenguaje nocturno no representa a la comunidad ni al edificio.",
+      "kept": "Los estados importantes ganan profundidad, contraste y quietud antes que más contenedores.",
+      "risk": "El aspecto técnico y oscuro aleja a visitantes no especializados.",
+      "comp": ".impeccable/mocks/decision/cola-en-profundidad.webp",
+      "hero": "https://impeccable.style/worlds/cards/operate-c-cracktro-scroller-queue-hero.webp"
+    },
+    {
+      "id": "challenger-pixorama",
+      "label": "Biblioteca pixorama",
+      "verdict": "declined",
+      "lineage": "ciudad isométrica de píxeles",
+      "thesis": "La biblioteca es una pequeña ciudad navegable donde cada bloque representa una familia de libros.",
+      "palette": ["#1A9DD0", "#E24D34", "#28A34F", "#F2CF37"],
+      "materials": ["píxel duro", "bloques isométricos", "rótulos emergentes"],
+      "viewport": "Una ciudad compacta organiza géneros y revela títulos al acercarse.",
+      "case": "La exploración es memorable, pero sacrifica la velocidad y familiaridad necesarias para consultar un catálogo real.",
+      "kept": "La interfaz debe reservar pequeños detalles descubribles sin ocultar la tarea principal.",
+      "risk": "Puede infantilizar la institución y dificultar la accesibilidad.",
+      "comp": ".impeccable/mocks/decision/biblioteca-pixorama.webp",
+      "hero": "https://impeccable.style/worlds/cards/eboy-pixorama-metropolis-hero.webp"
+    }
+  ],
+  "reroll": {"registers": ["safer", "bolder"]},
+  "buildPath": {"value": "code", "toggle": true},
+  "canon": true,
+  "canonCard": {
+    "label": "Catálogo convencional",
+    "thesis": "Un catálogo de tarjetas y un panel administrativo estándar, ejecutados con gran claridad.",
+    "palette": ["#FFFFFF", "#17201B", "#19723E", "#E8ECE9"],
+    "materials": ["retícula limpia", "fotografía de portadas"],
+    "viewport": "Encabezado, buscador centrado, filtros y cuadrícula uniforme de libros.",
+    "risk": "Fácil de usar, pero indistinguible de otros catálogos digitales.",
+    "comp": ".impeccable/mocks/decision/catalogo-convencional.webp"
+  },
+  "steer": true
+}

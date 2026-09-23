@@ -1,0 +1,9 @@
+node_modules/
+.env
+npm-debug.log*
+coverage/
+.impeccable/review/
+.impeccable/build/
+.impeccable/mocks/
+.impeccable/questions/
+.impeccable/config.local.json
